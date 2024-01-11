@@ -5,7 +5,7 @@ library(ggplot2)
 library(cowplot)
 ?ggplot2
 ggplot(data,aes(x=sample_id,y=`TCGA-A7-A13E-01A-11R-A12P-07`)) + geom_point() + coord_flip()
-# comment
+# comment1
 
 file <- "TCGA_breast_cancer_LumA_vs_Basal_PAM50.tsv"
 first10 <- c('NAT1','BIRC5','BAG1','BCL2','BLVRA','CCNB1','CCNE1','CDC6','CDC20','CDH3')
